@@ -31,3 +31,8 @@ const updateScore = (winner) => {
   }
 };
 
+// Function to update the round number after each round
+
+const advanceRound = () => {
+    currentRoundNumber ++;
+};
